@@ -108,7 +108,7 @@ const tablaHabilidad = (titulo: string, prefix: string, indicadores: string[]) =
     margin: { left: 14, right: 14 }
   });
 
-  y = pdf.lastAutoTable.finalY + 10;
+y = (pdf as any).lastAutoTable.finalY + 10;
 
   if (y > 260) {
     pdf.addPage();
