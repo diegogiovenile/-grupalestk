@@ -1,37 +1,40 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Casa TK - Group Evaluation Platform
 
-## Getting Started
+Web application designed to streamline the evaluation and reporting process for group workshops.
 
-First, run the development server:
+## Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This application allows professionals to complete structured evaluations through an interactive form. Once the evaluation is completed, the system processes the responses and generates an organized results table, including the descriptions and observations entered during the evaluation.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The project was developed to reduce manual work and make the process of organizing evaluation results more efficient.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Structured evaluation forms
+- Dynamic scoring and result calculation
+- Organized results table
+- Automatic display of evaluation descriptions
+- User-friendly interface for professional use
+- Responsive web application
+- Deployed application accessible through the web
 
-## Learn More
+## Technologies
 
-To learn more about Next.js, take a look at the following resources:
+- Next.js
+- TypeScript
+- React
+- Vercel
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Live Demo
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+https://grupalestk-821t.vercel.app
 
-## Deploy on Vercel
+## Purpose
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This project was developed from a real professional need, translating an existing evaluation workflow into a web-based application.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# -grupalestk
+The goal was to simplify data entry, organize results, and provide clearer information for communication with families.
+
+## Development
+
+This project is part of my transition into software engineering and reflects my experience building practical web applications to solve real-world problems.
